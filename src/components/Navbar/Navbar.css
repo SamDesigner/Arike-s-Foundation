@@ -1,0 +1,6 @@
+.main_nav{
+    z-index: 1000;
+}
+.side_nav{
+    z-index: 2000;
+}

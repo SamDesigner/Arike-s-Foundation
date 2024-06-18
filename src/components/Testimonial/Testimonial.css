@@ -1,0 +1,9 @@
+.custom_bg{
+    background-image: url('../../assets/images/testimonialBg.png');
+
+}
+.swiper-pagination-bullet-active {
+    background-color: #ff0000 !important; /* Red color for active bullet */
+   bottom: 5% !important;
+}
+  

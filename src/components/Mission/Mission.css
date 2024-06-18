@@ -1,0 +1,8 @@
+.mission_bg{
+    background: url('../../assets//images/missionBg.png');
+    min-height: 100vh;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: repeat;
+   
+}

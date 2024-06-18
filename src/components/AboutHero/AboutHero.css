@@ -1,0 +1,5 @@
+.aboutHero{
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) , rgba(0,0,0,0.4)), url('../../assets/images/support.jpg');
+    background-size: cover;
+}
