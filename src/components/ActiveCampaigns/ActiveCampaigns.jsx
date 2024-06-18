@@ -25,7 +25,7 @@ const ActiveCampaigns = () => {
                         </div>
                     </div>
                 </div>  
-                <div className='flex-1 grid grid-cols-2 gap-[20px]'>
+                <div className='flex-1 grid grid-cols-1 md:grid-cols-2 gap-[20px]'>
                     <div className='bg-white rounded-xl shadow-xl'>
                         <div className='h-[200px] w-full'>
                             <img className='h-full w-full object-cover rounded-tr-xl rounded-tl-xl' src={PostTwo}  />
