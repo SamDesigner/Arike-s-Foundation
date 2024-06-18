@@ -11,9 +11,9 @@ const Footer = () => {
     <div className='bg-red-900'>
         <div className='max-w-[1440px] mx-auto px-[16px] lg:px-[80px] py-[40px] flex flex-col gap-[40px]'>
             <div className='flex flex-col items-center md:flex-row md:justify-between'>
-                <div className='bg-white w-[10vw] h-[15vh]'>
+                {/* <div className='bg-white w-[10vw] h-[15vh]'>
                     <img className='h-full w-full' src={Logo} alt='Company Logo' />
-                </div>
+                </div> */}
                 <div className='flex flex-col gap-[30px]'>
                     <ul className='text-white flex gap-[40px]'>
                         <li>
