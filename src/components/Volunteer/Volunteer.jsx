@@ -8,7 +8,7 @@ const Volunteer = () => {
             <div className='text-white flex flex-col gap-[25px]'>
                 <h1 className='text-[40px] font-[700] md:leading-[80px]'>Want to become a member?</h1>
                 <p className='md:w-[500px] leading-[30px]'>We will be fully excited to have you on our team, together we can help create a world filled with love and support.</p>
-                <Link to='/'>
+                <Link to='/contact'>
                     <button className='border py-[20px] px-[25px]'>Become a volunteer</button>
                 </Link>
             </div>

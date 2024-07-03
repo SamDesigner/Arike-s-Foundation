@@ -9,7 +9,8 @@ export default {
         colors:{
           yellowBg:'#F4CE14',
           weirdGreen:'#97BE5A',
-          primaryRed:'#a21515'
+          primaryRed:'#a21515',
+          dashboardBg:'rgba(69, 1, 23, 0.872)'
         }
     },
   },

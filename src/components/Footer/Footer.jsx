@@ -30,15 +30,15 @@ const Footer = () => {
                         </li>
                     </ul>
                     <div className='flex gap-[40px]'>
-                        <Link to='/'>
+                        <a href='https://web.facebook.com/arikeswidowfoundation' target='_blank'>
                             <img src={Facebook} alt='Facebook' />
-                        </Link>
+                        </a>
                         <Link to='/'>
                             <img src={linkedIn} alt='Linked In' />
                         </Link>
-                        <Link to='/'>
+                        <a href='https://www.instagram.com/arikes_widows/'>
                             <img src={Instagram} alt='Instagram' />
-                        </Link>
+                        </a>
                         <Link to='/'>
                             <img src={Gmail} alt='Gmail' />
                         </Link>

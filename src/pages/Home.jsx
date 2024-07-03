@@ -15,9 +15,9 @@ const Home = () => {
         <Mission />
         <Info />
         <ActiveCampaigns />
-        <div className='hidden md:block'>
+        {/* <div className='hidden md:block'>
           <Testimonial />
-        </div>
+        </div> */}
         <Volunteer />
         <Footer />
     </div>
