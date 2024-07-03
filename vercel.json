@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      { "source": "/api/(.*)", "destination": "/api/$1" },
+      { "source": "/auth", "destination": "/auth" },
+      { "source": "/admin", "destination": "/admin" },
+      { "source": "/admin/addBlog", "destination": "/admin/addBlog" },
+      { "source": "/blogs", "destination": "/blogs" },
+      { "source": "/admin/updateBlog/:id", "destination": "/admin/updateBlog/:id" },
+      { "source": "/blogs/:id", "destination": "/blogs/:id" },
+      { "source": "/(.*)", "destination": "/index.html" }
+    ]
+  }
+  
