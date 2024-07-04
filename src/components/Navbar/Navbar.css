@@ -4,3 +4,8 @@
 .side_nav{
     z-index: 2000;
 }
+.active {
+    font-weight: bold;
+    color: red; /* Customize as needed */
+  }
+  

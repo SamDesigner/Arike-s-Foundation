@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar/Navbar'
 
 const Blogs = () => {
   return (
-    <div className='bg-gray-200'>
-        <div className='pb-[15vh] bg-red-300'>
+    <div>
+        <div className='pb-[15vh]'>
           <Navbar />
         </div>
        

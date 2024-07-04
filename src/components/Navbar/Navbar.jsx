@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Logo from "../../assets/images/logo.png";
+import lighterLogo from '../../assets/images/lighterLogo.png'
 import "./Navbar.css";
 import { FaBarsStaggered } from "react-icons/fa6";
 import MobileNav from "./MobileNav";
@@ -37,14 +38,14 @@ const Navbar = () => {
         <header className={navbarClasses}>
         <nav className="max-w-[1440px] mx-auto flex justify-between items-center ">
             <div className="h-[100px] w-[100px]">
-            <img className="h-full w-full" src={Logo} />
+            <img className="h-full w-full" src={scrolled ? Logo : lighterLogo} />
             </div>
             <ul className="hidden md:flex">
             <li className="flex items-center gap-[60px] text-gray-500 font-[400]">
-                <Link to="/">Home</Link>
-                <Link to="/about">About us</Link>
-                <Link to="/contact">Contact us</Link>
-                <Link to="/services">Services</Link>
+                <NavLink to="/" activeClassName="active">Home</NavLink>
+                <NavLink to="/about" activeClassName="active">About us</NavLink>
+                <NavLink to="/contact" activeClassName="active">Contact us</NavLink>
+                <NavLink to="/services" activeClassName="active">Services</NavLink>
             </li>
             </ul>
             <div className="hidden lg:flex">
@@ -57,7 +58,7 @@ const Navbar = () => {
             {/* 'text-white  ' */}
             <div
             className={`${
-                scrolled ? "text-red-800" : "text-white"
+                scrolled ? "text-red-800" : "text-red-600"
             } md:hidden text-[25px]`}
             onClick={() => setIsOpen(!isOpen)}
             >

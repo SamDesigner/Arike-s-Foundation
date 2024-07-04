@@ -25,7 +25,7 @@ const BlogDetails = () => {
         <div className='flex flex-col gap-[50px]'>
             <Navbar />
         
-            <div className='max-w-4xl mx-auto px-4 py-[100px] '>
+            <div className='max-w-4xl mx-auto px-4 py-[100px] bg-white '>
                 {blog ? (
                     <>
                         <h1 className='text-4xl font-bold mb-4'>{blog.Title}</h1>
