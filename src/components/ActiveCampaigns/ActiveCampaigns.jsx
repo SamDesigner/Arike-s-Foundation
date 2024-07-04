@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ActiveCampaigns = () => {
   return (
     <div className="">
-      <div className="max-w-[1440px] h-[100vh]  mx-auto flex flex-col-reverse md:flex-row ">
+      <div className="max-w-[1440px] lg:h-[100vh]  mx-auto flex flex-col-reverse md:flex-row ">
         <div className="flex-1 px-[20px] py-[20px] h-full flex flex-col justify-center ">
           <div className="flex flex-col gap-[10px]">
             <h3 className="text-red-400">Arike's Outreach </h3>

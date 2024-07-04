@@ -2,6 +2,8 @@ import React from "react";
 import visionImage from "../../assets/images/visionImage.jpg";
 import { TbTargetArrow } from "react-icons/tb";
 import footerImage from '../../assets/images/footerImage.jpg'
+import { BsPatchQuestionFill } from "react-icons/bs";
+import motherChild from '../../assets/images/motherChild.jpg'
 import { FaHandPointRight } from "react-icons/fa";
 const AboutVision = () => {
   return (
@@ -40,10 +42,10 @@ const AboutVision = () => {
       </div>
       <div className="max-w-[1440px] mx-auto px-[16px] lg:px-[80px] pb-[50px] flex flex-col lg:flex-row-reverse gap-[30px]">
         <div className="flex-1">
-          <div className=" w-full lg:w-[500px] h-full">
+          <div className=" w-full  h-full">
             <img
               className="h-full w-full object-cover"
-              src={footerImage}
+              src={motherChild}
               alt="mother and child"
             />
           </div>
@@ -53,12 +55,12 @@ const AboutVision = () => {
           <div className="text-primaryRed flex items-center gap-[10px] text-[40px] font-[700]">
             <h1>About Us</h1>
             <span>
-              <TbTargetArrow />
+            <BsPatchQuestionFill />
             </span>
           </div>
           <div className="flex flex-col gap-[20px]">
-            <p className="text-[20px] leading-[40px] text-gray-500">
-            At Arike's foundation, our mission is to enhance the lives of widows, orphans, and vulnerable individuals by providing essential support and resources. We are dedicated to improving the living conditions of widows and assisting their children through a comprehensive range of services that promote wellbeing and social welfare.
+            <p className="text-[17px] leading-[40px] text-gray-500">
+            Arike's Widows Foundation is a dedicated non-profit organization committed to enhancing the emotional, financial, and social welfare of widows. Recognizing the severe crises widows face, Arike's Widows Foundation aims to leverage mentorship to manage or alleviate these challenges. Our organization is focused on fostering financial independence and social inclusion for widows through comprehensive empowerment initiatives. Widows in Nigeria face multifaceted challenges, including economic vulnerability, legal obstacles, and social stigma. Arike's Widows Foundation aims to address these issues through tailored programs and services designed to meet the diverse and complex needs of this vulnerable group, ensuring they receive the support and opportunities necessary to rebuild their lives with dignity and resilience.
             </p>
             <p className="text-[20px] leading-[40px] text-gray-500">Our core activities include:</p>
             <ul className="flex flex-col gap-[20px]">
